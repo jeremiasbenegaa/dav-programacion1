@@ -1,6 +1,3 @@
-
-
-
 const calcular = () => {
 
     const datoa = document.getElementById("inp_a").value;
