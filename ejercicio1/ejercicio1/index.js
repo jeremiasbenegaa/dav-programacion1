@@ -11,5 +11,4 @@ const calcular = ()  => {
 }
 
 const boton = document.getElementById("btn_calcular");
-
 boton.addEventListener("click",calcular);
