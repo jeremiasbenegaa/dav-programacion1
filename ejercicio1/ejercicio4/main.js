@@ -5,7 +5,7 @@ const  calcular_tiempo  =  ( )  =>  {
     const  vi  =  documento . getElementById ("inp_vi").valor
     const  vf  =  documento . getElementById ("inp_vf").valor
     
-        resultado  constante =  ( vf - vi )  /  9.81
+        const constante =  ( vf - vi )  /  9.81
 
     return resultado
 
@@ -17,4 +17,4 @@ const  mostrar  =  ( )  =>  {
 }
 
 const  boton  =  documento . getElementById ( "btn_calcular" )
-boton . addEventListener ( "clic" , mostrar )
+boton . addEventListener ( "click" , mostrar )
