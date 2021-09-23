@@ -1,21 +1,20 @@
 
 
 
-const calcular = () => {
-
-    const vi = document.getElementById("inp_vi").value;
-    const vf = document.getElementById("inp_vf").value;
-
-    const resultado = (vf-vi) / 9.81
+const  calcular_tiempo  =  ( )  =>  {
+    const  vi  =  documento . getElementById ("inp_vi").valor
+    const  vf  =  documento . getElementById ("inp_vf").valor
+    
+        resultado  constante =  ( vf - vi )  /  9.81
 
     return resultado
-}
-
-const mostrar = () => {
-    const respuesta = calcular()
-    document.getElementById("h3").textContent= respuesta
 
 }
 
-const boton = document.getElementById("boton")
-boton.addEventListener("click", mostrar)
+const  mostrar  =  ( )  =>  {
+    const  respuesta  =  calcular_tiempo ( )
+    documento . getElementById ( "h3_tiempo" ) . textContent  =  "el tiempo final es:" + respuesta ;
+}
+
+const  boton  =  documento . getElementById ( "btn_calcular" )
+boton . addEventListener ( "clic" , mostrar )
