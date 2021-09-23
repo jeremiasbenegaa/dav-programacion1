@@ -1,6 +1,5 @@
 
 
-
 const  calcular_tiempo  =  ( )  =>  {
     const  vi  =  documento . getElementById ("inp_vi").valor
     const  vf  =  documento . getElementById ("inp_vf").valor
@@ -11,10 +10,10 @@ const  calcular_tiempo  =  ( )  =>  {
 
 }
 
-const  mostrar  =  ( )  =>  {
+const  calcular  =  ( )  =>  {
     const  respuesta  =  calcular_tiempo ( )
     documento . getElementById ( "h3_tiempo" ) . textContent  =  "el tiempo final es:" + respuesta ;
 }
 
-const  boton  =  documento . getElementById ( "btn_calcular" )
-boton . addEventListener ( "click" , mostrar )
+const  boton  =  document.getElementById ( "btn_calcular" );
+boton .  addEventListener( "click" , calcular );
